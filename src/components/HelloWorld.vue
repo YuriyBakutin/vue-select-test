@@ -9,8 +9,6 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 import vueSelect from 'vue-select'
 
-Vue.component('v-select', vueSelect)
-
 @Component({
   components: {
     vueSelect
@@ -22,7 +20,7 @@ export default class HelloWorld extends Vue {
   private options: string[] = [
     'Пункт 1',
     'Пункт 2',
-    'Пункт 3',
+    'Пункт 2.1',
     this.item
   ]
 }
