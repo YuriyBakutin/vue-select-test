@@ -7,5 +7,5 @@ npm install
 
 ### Compiles for testing
 ```
-npm run dev
+npm run build
 ```

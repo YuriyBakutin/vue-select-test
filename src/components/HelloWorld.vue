@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import vueSelect from 'vue-select/src/components/Select.vue'
+import vueSelect from 'vue-select' // - is not works // 'vue-select/src/components/Select.vue' - is works
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component({

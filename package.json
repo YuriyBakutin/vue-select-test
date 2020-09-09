@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx rollup -c --environment NODE_ENV:development && node server.js",
+    "build": "npx rollup -c --environment NODE_ENV:development && node server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
@@ -28,7 +28,7 @@
     "rollup-plugin-scss": "^2.5.0",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
-    "rollup-plugin-vue": "^5.1.9",
+    "rollup-plugin-vue": "5.0.0",
     "typescript": "^3.9.6",
     "vue": "2.6.11",
     "vue-class-component": "^7.2.3",
