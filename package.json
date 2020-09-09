@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "npx rollup -c --environment NODE_ENV:development && node server.js",
-    "prod": "npx rollup -c --environment NODE_ENV:production && node server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
