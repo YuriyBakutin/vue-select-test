@@ -11,15 +11,7 @@
     "@rollup/plugin-node-resolve": "^8.1.0",
     "@rollup/plugin-replace": "^2.2.0",
     "@rollup/plugin-url": "^5.0.1",
-    "@types/bootstrap": "^4.5.0",
-    "@types/dropzone": "^5.5.2",
-    "@types/jquery": "^3.5.0",
-    "@types/jquery.validation": "^1.16.5",
-    "@types/node": "^14.0.5",
-    "@types/select2": "^4.0.48",
-    "@types/typeahead": "^0.11.32",
     "@types/vue-select": "2.5.0",
-    "bootstrap": "^4.3.1",
     "path": "^0.12.7",
     "rollup": "^2.21.0",
     "rollup-plugin-bundle-scss": "^0.1.1",
@@ -39,23 +31,9 @@
     "@mdi/js": "^5.3.45",
     "@microsoft/signalr": "^3.1.4",
     "@tinymce/tinymce-vue": "^3.2.2",
-    "bootstrap-vue": "^2.15.0",
-    "cropperjs": "^1.5.7",
-    "firebase": "^7.17.1",
-    "glob": "^7.1.6",
-    "jquery": "^3.5.1",
-    "ky": "^0.23.0",
-    "perfect-scrollbar": "1.5.0",
-    "squirrelly": "^8.0.3",
-    "stacked-menu": "^1.1.12",
     "vue-toastr": "^2.1.2",
     "vuedraggable": "^2.24.1",
     "vue-select": "2.5.0",
     "vuex": "^3.5.1"
-  },
-  "-vs-binding": {
-    "ProjectOpened": [
-      "dev"
-    ]
   }
 }

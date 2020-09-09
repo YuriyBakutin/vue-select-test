@@ -6,7 +6,8 @@
 </template>
 
 <script lang="ts">
-import vueSelect from 'vue-select' // - is not works // 'vue-select/src/components/Select.vue' - is works
+import vueSelect from 'vue-select' // - is not works
+// import vueSelect from 'vue-select/src/components/Select.vue' // - is works
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component({
@@ -18,9 +19,8 @@ export default class HelloWorld extends Vue {
   @Prop() private item!: string
 
   private options: string[] = [
-    'Пункт 1',
-    'Пункт 2',
-    'Пункт 2.1',
+    'First',
+    'Second',
     this.item
   ]
 }

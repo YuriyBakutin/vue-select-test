@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld item="А этот пункт прилетел через Prop."/>
+    <HelloWorld item="External - from Prop"/>
   </div>
 </template>
 
